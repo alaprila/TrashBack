@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
 
 body {
   margin: 0;
@@ -19,59 +19,59 @@ header {
 }
 
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
 }
-  
+
 .logo {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
-  
+
 .logo img {
-    margin-left: 3rem;
-    margin-right: 14rem;
-    width: 200px;
+  margin-left: 3rem;
+  margin-right: 14rem;
+  width: 200px;
 }
 
 .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style-type: none;
-    padding: 0;
-    margin: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 30px;
 }
-  
+
 .navbar li {
-    margin-right: 40px;
+  margin-right: 40px;
 }
-  
+
 .navbar li a {
-    color: #000;
-    padding: 10px 20px;
-    border-radius: 10px;
-    transition: background-color 0.3s ease;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
 }
-  
+
 .navbar li a:hover {
-    background-color: #2F5150;
-    color: #fff;
+  background-color: #2f5150;
+  color: #fff;
 }
-  
+
 .sideLogo {
-    display: flex;
-    position: absolute;
-    right: 0;
-    top: 0;
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
-  
+
 .sideLogo img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
 
 .content {
@@ -125,7 +125,7 @@ nav {
 }
 
 footer {
-  background-color: #2F5150;
+  background-color: #2f5150;
   padding: 20px;
   margin-top: 10rem;
 }
@@ -281,6 +281,10 @@ footer {
 
 .register-link:hover {
   text-decoration: underline;
+}
+
+.navbar-responsive {
+  display: none;
 }
 
 /* Responsive Styles */
