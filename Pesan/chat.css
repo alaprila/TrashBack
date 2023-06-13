@@ -11,9 +11,9 @@ a {
 }
 
 header {
-  background-color: #fff;
   padding: 10px;
-  display: flex;
+  background-color: #fff;
+  display: block;
   justify-content: space-between;
   align-items: center;
 }
@@ -21,7 +21,6 @@ header {
 nav {
   display: flex;
   align-items: center;
-  justify-content: center;
   padding: 10px;
 }
 
@@ -32,7 +31,7 @@ nav {
 
 .logo img {
   margin-left: 3rem;
-  margin-right: 14rem;
+  margin-right: 3rem;
   width: 200px;
 }
 
@@ -46,7 +45,7 @@ nav {
 }
 
 .navbar li {
-  margin-right: 40px;
+  margin: 10px;
 }
 
 .navbar li a {
@@ -75,24 +74,24 @@ nav {
 }
 
 /* content */
-.content{
+.konten{
   text-align: center;
   width: 100%;
   margin: 0;
   display: block;
 }
 
-.judul{
+.notif{
   margin: auto;
   width: 80%;
-  height: 45px;
+  height: 30px;
   padding: 10px;
   background: #2F5150;
   border-radius: 20px;
   align-items: center;
 }
 
-.judul h2{
+.notif h2{
   margin: 0;
   font-family: 'Poppins';
   font-weight: 700;
@@ -101,46 +100,13 @@ nav {
   color: #FFFFFF;
 }
 
-.content_mitra{
+.content{
   margin: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 20px;
   width: 70%;
   height: 100%;
   padding: 20px 30px;
   align-items: center;
-
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-  background-color: #F6F6F6;
-  
-}
-
-.content_mitra .mitra {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    text-align: left;
-    line-height: 35px;
-    color: #000000;
-}
-
-#kiri{
-  left: 0;
-  margin-left: 20px;
-}
-
-#kanan{
-  right: 0;
-  margin-right: 20px;
-  margin-top: 0;
-}
-
-.next{
-  margin-top: 40px;
-  display: flex;
-  justify-content: center;
 }
 
 /*footer*/
@@ -304,9 +270,8 @@ footer {
   text-decoration: underline;
 }
 
-
 /* Responsive Styles */
-
+/*
 @media (max-width: 768px) {
   .logo img {
     margin-left: 1rem;
@@ -347,6 +312,10 @@ footer {
     margin-bottom: 0.5rem;
   }
 
+  .content {
+    align-items: center;
+  }
+
   .search-box,
   .register-box {
     width: 100%;
@@ -377,9 +346,4 @@ footer {
     font-size: 16px;
   }
 }
-
-@media (min-width: 405px){
-  .judul h2{
-    width: 100%;
-  }
-}
+*/

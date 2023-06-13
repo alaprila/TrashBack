@@ -33,7 +33,6 @@ nav {
 .logo img {
   margin-left: 3rem;
   margin-right: 14rem;
-  width: 200px;
 }
 
 .navbar {
@@ -42,7 +41,7 @@ nav {
   justify-content: center;
   list-style-type: none;
   padding: 0;
-  margin: 30px;
+  margin: 0;
 }
 
 .navbar li {
@@ -51,7 +50,7 @@ nav {
 
 .navbar li a {
   color: #000;
-  padding: 10px 20px;
+  padding: 5px 20px;
   border-radius: 10px;
   transition: background-color 0.3s ease;
 }
@@ -63,9 +62,9 @@ nav {
 
 .sideLogo {
   display: flex;
+  align-items: center;
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 10px;
 }
 
 .sideLogo img {
@@ -74,76 +73,76 @@ nav {
   object-fit: cover;
 }
 
-/* content */
-.content{
-  text-align: center;
+.content {
+  padding: 20px;
+}
+
+.jumbotron {
   width: 100%;
-  margin: 0;
-  display: block;
-}
-
-.judul{
-  margin: auto;
-  width: 80%;
-  height: 45px;
-  padding: 10px;
-  background: #2F5150;
-  border-radius: 20px;
-  align-items: center;
-}
-
-.judul h2{
-  margin: 0;
-  font-family: 'Poppins';
-  font-weight: 700;
-  font-size: 20px;
-  text-align: center;
-  color: #FFFFFF;
-}
-
-.content_mitra{
-  margin: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  width: 70%;
-  height: 100%;
-  padding: 20px 30px;
-  align-items: center;
-
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-  background-color: #F6F6F6;
-  
-}
-
-.content_mitra .mitra {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    text-align: left;
-    line-height: 35px;
-    color: #000000;
-}
-
-#kiri{
-  left: 0;
-  margin-left: 20px;
-}
-
-#kanan{
-  right: 0;
-  margin-right: 20px;
-  margin-top: 0;
-}
-
-.next{
-  margin-top: 40px;
+  height: 400px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  background: url("assets/banner1.png") no-repeat center center;
+  background-size: cover;
 }
 
-/*footer*/
+.jumbotron img {
+  display: none;
+}
+
+.content1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.menu-kategori {
+  text-align: center;
+}
+
+.icons {
+  margin-bottom: 5px;
+}
+
+.img-kategori {
+  width: 80px;
+  height: 80px;
+}
+
+.icon {
+  margin-top: 5px;
+}
+
+.content2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.iklan-baris {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.iklan-baris:last-child {
+  margin-bottom: 0;
+}
+
+.iklan-baris .iklan {
+  flex: 1;
+}
+
+.iklan img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
 
 footer {
   background-color: #2F5150;
@@ -193,7 +192,7 @@ footer {
   color: #fff;
 }
 
-#content {
+.content {
   display: flex;
   flex-direction: column;
 }
@@ -304,7 +303,6 @@ footer {
   text-decoration: underline;
 }
 
-
 /* Responsive Styles */
 
 @media (max-width: 768px) {
@@ -328,6 +326,21 @@ footer {
     height: 100px;
   }
 
+  .content1 {
+    flex-wrap: wrap;
+    gap: 5rem;
+  }
+
+  .jumbotron {
+    height: 200px;
+  }
+
+  .jumbotron img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
   .footer-box {
     margin-left: 0;
   }
@@ -345,6 +358,10 @@ footer {
 
   .list-link a {
     margin-bottom: 0.5rem;
+  }
+
+  .content {
+    align-items: center;
   }
 
   .search-box,
@@ -373,13 +390,16 @@ footer {
     height: 80px;
   }
 
+  .content1 {
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .jumbotron {
+    height: 150px;
+  }
+
   .about-us {
     font-size: 16px;
-  }
-}
-
-@media (min-width: 405px){
-  .judul h2{
-    width: 100%;
   }
 }

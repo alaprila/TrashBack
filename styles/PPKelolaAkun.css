@@ -126,9 +126,8 @@ form :hover{
 footer {
     background-color: #2F5150;
     padding: 20px;
-    margin-top: 10rem;
     bottom: 0;
-    position: absolute;
+    margin-top: 10rem;
   }
   
   .footer-box {

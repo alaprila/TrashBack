@@ -131,6 +131,15 @@ nav {
     color: #000000;
 }
 
+.next{
+  margin-top: 40px;
+  display: inline-flex;
+}
+
+#kanan{
+  display: inline;
+}
+
 /*footer*/
 
 footer {
