@@ -128,13 +128,22 @@ li{
   margin-top: 0;
 }
 
+.next{
+  margin-top: 40px;
+  display: inline-flex;
+}
+
+#kiri{
+  display: inline;
+}
+
+
 /*----Footer Styling----*/
 footer {
     background-color: #2F5150;
     padding: 20px;
     margin-top: 10rem;
     bottom: 0;
-    position: absolute;
   }
   
   .footer-box {

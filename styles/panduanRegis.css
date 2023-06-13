@@ -126,6 +126,10 @@ nav {
     color: #000000;
 }
 
+.next {
+  display: flex;
+}
+
 /*footer*/
 
 footer {

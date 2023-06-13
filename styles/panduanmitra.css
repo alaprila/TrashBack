@@ -126,6 +126,23 @@ nav {
     color: #000000;
 }
 
+#kiri{
+  left: 0;
+  margin-left: 20px;
+}
+
+#kanan{
+  right: 0;
+  margin-right: 20px;
+  margin-top: 0;
+}
+
+.next{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
 /*footer*/
 
 footer {
