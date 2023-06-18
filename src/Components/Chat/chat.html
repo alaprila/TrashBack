@@ -12,13 +12,13 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
-    <link rel="stylesheet" href="chat.css" />
+    <link rel="stylesheet" href="../../Components/Chat/Chat.html" />
 
     <title>TrashBack Notifikasi</title>
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand" href="../../../Public/index.html">
           <img
@@ -40,30 +40,27 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a
-                class="nav-link"
+                class="nav-link active"
                 aria-current="page"
                 href="../../../Public/index.html"
                 >Beranda</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../Transaksi/transaksi.html"
+              <a class="nav-link" href="../Transaksi/Transaksi.html"
                 >Transaksi</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../Chat/chat.html">Chat</a>
+              <a class="nav-link" href="../Chat/Chat.html">Chat</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../About/tentangKami.html"
-                >Tentang kami</a
+              <a class="nav-link" href="../Account/kelolaAkun.html"
+                >Kelola Akun</a
               >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../Auth/Login.html">Login</a>
             </li>
           </ul>
         </div>
@@ -71,7 +68,7 @@
     </nav>
 
     <main class="content">
-      <span class="d-block p-2 mt-4">
+      <span class="d-block p-2">
         <div class="notif">
           <h2>Notifikasi Saya</h2>
         </div>
@@ -89,7 +86,7 @@
     <footer>
       <div class="footer-box">
         <div class="logo-footer">
-          <img src="../../Assets/logo-footer.png" alt="" />
+          <img src="../../Assets/logo.png" alt="" />
         </div>
         <div class="about-box">
           <div class="left-box">
@@ -101,32 +98,37 @@
             </div>
           </div>
 
-          <div class="social-media-box">
-            <h3>Ikuti Kami</h3>
-            <div class="social-media">
-              <a href=""><i class="fab fa-facebook"></i> Facebook</a><br />
-              <a href=""><i class="fab fa-instagram"></i> Instagram</a><br />
-              <a href=""><i class="fab fa-youtube"></i> Youtube </a><br />
-              <a href=""><i class="fab fa-whatsapp"></i> Whatsapp</a><br />
-              <a href=""><i class="fab fa-twitter"></i> Twitter</a><br />
-            </div>
-          </div>
-
           <div class="center-box">
-            <h3>Link Terkait</h3>
+            <h2>Link Terkait</h2>
             <div class="list-link">
               <a href="../../../Public/index.html"
                 ><i class="fas fa-link"></i> Beranda</a
               ><br />
-              <a href="../../Components/Transaksi/transaksi.html"
+              <a href="../Transaksi/Transaksi.html"
                 ><i class="fas fa-link"></i> Transaksi</a
               ><br />
-              <a href="../../Components/Chat/chat.html"
-                ><i class="fas fa-link"></i> Chat</a
+              <a href="../Chat/Chat.html"><i class="fas fa-link"></i> Chat</a
               ><br />
-              <a href="../../Components/About/tentangKami.html"
-                ><i class="fas fa-link"></i> Tentang Kami</a
-              ><br />
+              <a href="#"><i class="fas fa-link"></i> Kelola Akun</a><br />
+            </div>
+          </div>
+
+          <div class="right-box">
+            <div id="content">
+              <div class="box-row">
+                <div class="search-box box-item">
+                  <span class="fas fa-search"></span>
+                  <input type="text" placeholder="Cari..." />
+                </div>
+              </div>
+              <div class="register-box box-item">
+                <span class="text">Belum punya akun? </span>
+                <a href="#" class="register-link">Daftar sekarang</a>
+              </div>
+              <div class="register-box box-item">
+                <span class="text">Sudah punya akun? </span>
+                <a href="#" class="register-link">Login disini</a>
+              </div>
             </div>
           </div>
         </div>
