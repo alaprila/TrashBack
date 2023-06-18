@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Ambil elemen yang diperlukan
 const biodataText = document.getElementById('biodata-text');
 const biodataForm = document.getElementById('biodata-form');
@@ -52,3 +53,22 @@ provinceSelect.addEventListener('change', function () {
         });
       });
   });
+=======
+
+// Fetch data provinsi
+fetch('../data/provinces.json')
+  .then(response => response.json())
+  .then(data => {
+    const selectProvinsi = document.getElementById('inputProvince');
+    data.provinces.forEach(provinsi => {
+      const option = document.createElement('option');
+      option.value = provinsi;
+      option.textContent = provinsi;
+      selectProvinsi.appendChild(option);
+    });
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  });
+  
+>>>>>>> fix/logout

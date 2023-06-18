@@ -44,12 +44,12 @@ header {
   top: 15px;
 }
 
-/* content */
-.content{
-  text-align: center;
-  width: 100%;
-  margin-top:30px;
-  display: block;
+/*----Main Styling----*/
+main{
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin:30px;
 }
 
 .d-block {
@@ -60,6 +60,7 @@ header {
   background: #2F5150 !important;
   border-radius: 20px;
   align-items: center;
+  margin-top: 30px;
 }
 
 .d-block h2{
@@ -71,39 +72,32 @@ header {
   color: #FFFFFF;
 }
 
-.content_mitra{
-  margin: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  width: 70%;
-  height: 100%;
-  padding: 20px 30px;
-  align-items: center;
-
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+.isi{
+  width: 100%;
+  height: fit-content;
+  left: 175px;
+  top: 281px;
+  background: #F6F6F6;
   border-radius: 10px;
-  background-color: #F6F6F6;
-  
-}
-
-.content_mitra .mitra {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    text-align: left;
-    line-height: 35px;
-    color: #000000;
+  font-size: 17px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
 }
 
 .next{
   margin-top: 20px;
   display: flex;
-  justify-content: center;
+  width: 100%;
+  justify-content: space-between;
 }
 
-/*footer*/
+#kiri{
+  display: inline;
+}
 
+/*----Footer Styling----*/
 footer {
   background-color: #2F5150;
   padding: 20px;
@@ -125,7 +119,7 @@ footer {
 }
   
 .about-box {
-  display:flex;
+  display: flex;
   width: 100%;
   grid-template-columns: 500px 600px 500px;
   gap: 80px;
@@ -210,94 +204,108 @@ footer {
   gap: 20px;
   justify-content: flex-start;
 }
+  
+  /* Responsive Styles */
+  
+  @media (max-width: 1200px) {
+    .logo img {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  
+    .navbar {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .navbar li {
+      margin-right: 20px;
+      margin-bottom: 10px;
+    }
+  
+    .sideLogo img {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .isi{
+      width: 100%;
+    }
 
+    h1{
+      width: 100%;
+    }
 
-/* Responsive Styles */
-
-@media (max-width: 1200px) {
-  .logo img {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-
-  .navbar {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .navbar li {
-    margin-right: 20px;
-    margin-bottom: 10px;
-  }
-
-  .sideLogo img {
-    width: 100px;
-    height: 100px;
-  }
-
-  .footer-box {
-    margin-left: 0;
+    .footer-box {
+      margin-left: 0;
+    }
+    
+    .about-box {
+      display: flex;
+      flex-direction: column;
+      gap:20px;
+    }
+    
+    .left-box,
+    .center-box,
+    .right-box {
+      flex-basis: 100%;
+    }
+    
+    .list-link a {
+      margin-bottom: 0.5rem;
+    }
+  
+    .search-box,
+    .register-box {
+      width: 100%;
+    }
   }
   
-  .about-box {
-    display: flex;
-    flex-direction: column;
-    gap:20px;
-  }
+  @media (max-width: 576px) {
+    .logo img {
+      margin-left: 0;
+      margin-right: 0;
+    }
   
-  .left-box,
-  .center-box,
-  .right-box {
-    flex-basis: 100%;
-  }
+    .navbar {
+      justify-content: flex-start;
+    }
   
-  .list-link a {
-    margin-bottom: 0.5rem;
-  }
-}
-
-@media (max-width: 576px) {
-  .logo img {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .navbar {
-    justify-content: flex-start;
-  }
-
-  .navbar li {
-    margin-right: 10px;
-    margin-bottom: 10px;
-  }
-
-  .sideLogo img {
-    width: 80px;
-    height: 80px;
-  }
-
-  .about-us {
-    font-size: 16px;
-  }
-}
-
-@media (min-width: 405px){
-  .judul h2{
+    .navbar li {
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+  
+    .sideLogo img {
+      width: 80px;
+      height: 80px;
+    }
+  
+   h1{
     width: 100%;
-  }
-}
+   }
 
-@media (min-width: 900px){
-  footer{
-    position: fixed;
-    bottom: 0;
+   .isi{
+    width: 90%;
+   }
+  
+    .about-us {
+      font-size: 16px;
+    }
   }
-}
 
-@media (min-width: 992px){
-  .navbar-expand-lg .navbar-collapse {
-    display: flex!important;
-    flex-basis: auto;
-    justify-content: flex-end;
+  @media (min-width: 500px){
+    footer{
+      position: fixed;
+      bottom: 0;
+    }
   }
-} 
+
+  @media (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse {
+      display: flex!important;
+      flex-basis: auto;
+      justify-content: flex-end;
+    }
+  } 

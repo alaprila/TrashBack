@@ -57,18 +57,26 @@ header {
   object-fit: cover;
 }
 
+<<<<<<< HEAD
 .content {
   padding: 20px;
 }
 
+=======
+>>>>>>> fix/logout
 .jumbotron {
   width: 100%;
   height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
+<<<<<<< HEAD
   background: url("../src/Assets/banner1.png") no-repeat center center;
   background-size: cover;
+=======
+  background: url("../../Assets/banner1.png") no-repeat center center;
+  background-size: 100%;
+>>>>>>> fix/logout
 }
 
 .jumbotron img {
@@ -76,6 +84,7 @@ header {
 }
 
 .content1 {
+<<<<<<< HEAD
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,6 +92,14 @@ header {
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
+=======
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    justify-content: center;
+  }
+>>>>>>> fix/logout
 
 .menu-kategori {
   text-align: center;
@@ -107,10 +124,20 @@ header {
   object-fit: cover;
 }
 
+<<<<<<< HEAD
 footer {
   background-color: #2f5150;
   padding: 20px;
   margin-top: 10rem;
+=======
+
+/*Footer Styling*/
+footer {
+  background-color: #2f5150;
+  padding: 20px;
+  margin-top: 6rem;
+  width: 100%;
+>>>>>>> fix/logout
 }
 
 .footer-box {
@@ -121,32 +148,53 @@ footer {
   margin-left: 4rem;
 }
 
+<<<<<<< HEAD
 .about-box {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
   margin-top: 20px;
+=======
+.logo-footer img {
+  margin-top: -5rem;
+  margin-left: 4rem;
+}
+
+.about-box {
+  display: flex;
+  width: 100%;
+  grid-template-columns: 500px 600px 500px;
+  gap: 80px;
+  color: #fff;
+>>>>>>> fix/logout
 }
 
 .about-us {
   font-size: 20px;
   font-weight: 500;
+<<<<<<< HEAD
   color: #fff;
   text-align: justify;
   margin-top: 4rem;
+=======
+  text-align: initial;
+>>>>>>> fix/logout
 }
 
 .left-box,
 .center-box,
 .right-box {
   flex-basis: 33.33%;
+<<<<<<< HEAD
   text-align: center;
 }
 
 .center-box h2 {
   color: #fff;
   margin-bottom: 2rem;
+=======
+>>>>>>> fix/logout
 }
 
 .list-link a {
@@ -154,6 +202,15 @@ footer {
   margin-bottom: 1rem;
   color: #fff;
 }
+<<<<<<< HEAD
+=======
+.list-link {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 15px;
+  gap: 20px;
+}
+>>>>>>> fix/logout
 
 .content {
   display: flex;
@@ -186,6 +243,7 @@ footer {
   font-size: 16px;
 }
 
+<<<<<<< HEAD
 .search-box,
 .register-box {
   border: 1px solid #fff;
@@ -217,6 +275,8 @@ footer {
   text-decoration: underline;
 }
 
+=======
+>>>>>>> fix/logout
 .box-row {
   display: flex;
   flex-wrap: wrap;
@@ -225,6 +285,7 @@ footer {
   margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
 .search-box {
   display: flex;
   align-items: center;
@@ -268,6 +329,22 @@ footer {
 
 .navbar-responsive {
   display: none;
+=======
+.social-media-box {
+  color: #fafaff;
+}
+
+.social-media a {
+  color: #fafaff;
+  font-size: 15px;
+}
+
+.social-media {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+>>>>>>> fix/logout
 }
 
 /* Responsive Styles */
@@ -295,7 +372,13 @@ footer {
 
   .content1 {
     flex-wrap: wrap;
+<<<<<<< HEAD
     gap: 5rem;
+=======
+    grid-template-columns: 200px 200px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+>>>>>>> fix/logout
   }
 
   .jumbotron {
@@ -320,7 +403,10 @@ footer {
   .center-box,
   .right-box {
     flex-basis: 100%;
+<<<<<<< HEAD
     text-align: center;
+=======
+>>>>>>> fix/logout
   }
 
   .list-link a {
@@ -331,10 +417,13 @@ footer {
     align-items: center;
   }
 
+<<<<<<< HEAD
   .search-box,
   .register-box {
     width: 100%;
   }
+=======
+>>>>>>> fix/logout
 }
 
 @media (max-width: 576px) {
@@ -369,4 +458,36 @@ footer {
   .about-us {
     font-size: 16px;
   }
+<<<<<<< HEAD
 }
+=======
+
+}
+
+@media (max-width: 1200px) {
+  .footer-box {
+    margin-left: 0;
+  }
+
+  footer {
+    position: none;
+  }
+
+  .about-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .left-box,
+  .center-box,
+  .right-box {
+    flex-basis: 100%;
+  }
+
+  .list-link a {
+    margin-bottom: 0.5rem;
+  }
+}
+
+>>>>>>> fix/logout
