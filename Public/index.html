@@ -12,37 +12,69 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
-    <link rel="stylesheet" href="./styles/home.css" />
+
+    <link rel="stylesheet" href="../Public/index.css" />
 
     <title>TrashBack</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="Home.html" class="logo">
-          <img src="assets/logotb.png" alt="" />
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../Public/index.html">
+          <img
+            src="../src/Assets/logotb.png"
+            alt="Bootstrap"
+            width="50%"
+            height="auto"
+          />
         </a>
-
-        <div class="navbar-responsive">
-          <div class="menu-icon" id="menu-icon">
-            <i class="fas fa-bars"></i>
-          </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-start"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="../Public/index.html">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="../src/Components/Transaksi/Transaksi.html"
+                >Transaksi</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../src/Components/Chat/Chat.html"
+                >Chat</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="../src/Components/Account/kelolaAkun.html"
+                >Kelola Akun</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../src/Components/Auth/Login.html"
+                >Login</a
+              >
+            </li>
+          </ul>
         </div>
-
-        <ul class="navbar" id="navbar-menu">
-          <li><a href="Home.html">Beranda</a></li>
-          <li><a href="./pages/transaksi.html">Transaksi</a></li>
-          <li><a href="./pages/chat.html">Chat</a></li>
-          <li><a href="./pages/kelolaAkun.html">Kelola Akun</a></li>
-        </ul>
-
-        <div class="sideLogo">
-          <a href="#">
-            <img src="assets/icon-navbar.png" alt="" />
-          </a>
-        </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
 
     <main>
       <div class="content">
@@ -53,8 +85,8 @@
     <section class="content1">
       <div class="menu-kategori">
         <div class="icons">
-          <a href="pickup.html"
-            ><img src="assets/icon_pickup.png" class="img-kategori"
+          <a href="../src/Components/PickUp/PickUp.html"
+            ><img src="../src/Assets/icon_pickup.png" class="img-kategori"
           /></a>
           <p class="icon">Pick Up</p>
         </div>
@@ -62,8 +94,8 @@
 
       <div class="menu-kategori">
         <div class="icons">
-          <a href="dropoff.html"
-            ><img src="assets/icon_dropoff.png" class="img-kategori"
+          <a href="../src/Components/DropOff/Dropoff.html"
+            ><img src="../src/Assets/icon_dropoff.png" class="img-kategori"
           /></a>
           <p class="icon">Drop Off</p>
         </div>
@@ -71,8 +103,17 @@
 
       <div class="menu-kategori">
         <div class="icons">
-          <a href="tentangkami.html"
-            ><img src="assets/ixon_ttgkami.png" class="img-kategori"
+          <a href="../src/Components/Panduan/panduanmitra.html">
+            <img src="../src/Assets/logoPP.png" class="img-kategori" />
+          </a>
+          <p class="icon">Panduan Pengguna</p>
+        </div>
+      </div>
+
+      <div class="menu-kategori">
+        <div class="icons">
+          <a href="../src/Components/About/tentangkami.html"
+            ><img src="../src/Assets/ixon_ttgkami.png" class="img-kategori"
           /></a>
           <p class="icon">Tentang Kami</p>
         </div>
@@ -88,21 +129,21 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
-              src="./assets/iklan-banner-1.jpg"
+              src="../src/Assets/iklan-banner-1.jpg"
               class="d-block w-100"
               alt="iklan-banner-1"
             />
           </div>
           <div class="carousel-item">
             <img
-              src="./assets/iklan-banner-2.jpg"
+              src="../src/Assets/iklan-banner-2.jpg"
               class="d-block w-100"
               alt="iklan-banner-2"
             />
           </div>
           <div class="carousel-item">
             <img
-              src="./assets/iklan-banner-3.jpg"
+              src="../src/Assets/iklan-banner-3.jpg"
               class="d-block w-100"
               alt="iklan-banner-3"
             />
@@ -132,7 +173,7 @@
     <footer>
       <div class="footer-box">
         <div class="logo-footer">
-          <img src="assets/logo.png" alt="" />
+          <img src="../src/Assets/logotb.png" alt="" />
         </div>
         <div class="about-box">
           <div class="left-box">
@@ -151,29 +192,6 @@
               <a href="#"><i class="fas fa-link"></i> Transaksi</a><br />
               <a href="#"><i class="fas fa-link"></i> Chat</a><br />
               <a href="#"><i class="fas fa-link"></i> Kelola Akun</a><br />
-            </div>
-          </div>
-
-          <div class="right-box">
-            <div class="content">
-              <div class="box-row">
-                <div class="search-box box-item">
-                  <span class="fas fa-search"></span>
-                  <input type="text" placeholder="Cari..." />
-                </div>
-              </div>
-              <div class="register-box box-item">
-                <span class="text">Belum punya akun? </span>
-                <a href="./pages/Login.html" class="register-link"
-                  >Daftar sekarang</a
-                >
-              </div>
-              <div class="register-box box-item">
-                <span class="text">Sudah punya akun? </span>
-                <a href="./pages/Login.html" class="register-link"
-                  >Login disini</a
-                >
-              </div>
             </div>
           </div>
         </div>
@@ -200,6 +218,21 @@
       });
     </script>
 
+    <script>
+      window.addEventListener("scroll", function () {
+        var navbar = document.querySelector(".navbar");
+
+        if (window.pageYOffset > 0) {
+          navbar.classList.add("navbar-scrolled");
+        } else {
+          navbar.classList.remove("navbar-scrolled");
+        }
+      });
+    </script>
+    <script src="../app.js"></script>
+    <script type="module" src="../auth.js"></script>
+    <script src="../src/Components/Routes/router.js"></script>
+    <script src="../src/Components/Routes/server.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

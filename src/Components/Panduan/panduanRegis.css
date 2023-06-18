@@ -75,14 +75,14 @@ nav {
 }
 
 /* content */
-.konten{
+.content{
   text-align: center;
   width: 100%;
   margin: 0;
   display: block;
 }
 
-.notif{
+.judul{
   margin: auto;
   width: 80%;
   height: 45px;
@@ -92,7 +92,7 @@ nav {
   align-items: center;
 }
 
-.notif h2{
+.judul h2{
   margin: 0;
   font-family: 'Poppins';
   font-weight: 700;
@@ -101,13 +101,33 @@ nav {
   color: #FFFFFF;
 }
 
-.content{
+.content_user{
   margin: auto;
-  margin-top: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   width: 70%;
   height: 100%;
   padding: 20px 30px;
   align-items: center;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: #F6F6F6;
+}
+
+.panduan_regis_user {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+    line-height: 35px;
+    /* or 194% */
+    color: #000000;
+}
+
+.next {
+  display: flex;
 }
 
 /*footer*/
@@ -342,5 +362,11 @@ footer {
 
   .about-us {
     font-size: 16px;
+  }
+}
+
+@media (min-width: 405px){
+  .judul h2{
+    width: 100%;
   }
 }

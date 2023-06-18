@@ -77,9 +77,9 @@ signinButton.addEventListener("click", (e) => {
         last_login: lgDate,
       })
         .then(() => {
-          // Data saved successfully!
-          // alert("User has successfully logged in");
-          location.href = "http://127.0.0.1:5500/home.html";
+          alert("User has successfully logged in");
+          location.href =
+            "http://127.0.0.1:5500/src/Components/Auth/Logout.html";
         })
         .catch((error) => {
           // The write failed
