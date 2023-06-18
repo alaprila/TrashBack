@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+=======
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+>>>>>>> fix/logout
 
 body {
   margin: 0;
   padding: 0;
   font-family: Poppins, sans-serif;
+<<<<<<< HEAD
 }
 
 a {
@@ -11,6 +16,15 @@ a {
 }
 
 
+=======
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+>>>>>>> fix/logout
 header {
   background-color: #fff;
   padding: 10px;
@@ -19,6 +33,7 @@ header {
   align-items: center;
 }
 
+<<<<<<< HEAD
 nav {
   display: flex;
   align-items: center;
@@ -46,6 +61,8 @@ nav {
   margin: 30px;
 }
 
+=======
+>>>>>>> fix/logout
 .navbar li {
   margin-right: 40px;
 }
@@ -58,6 +75,7 @@ nav {
 }
 
 .navbar li a:hover {
+<<<<<<< HEAD
   background-color: #2F5150;
   color: #fff;
 }
@@ -111,13 +129,80 @@ nav {
     font-weight: bolder;
     font-size: 250%;
   }
+=======
+  background-color: #2f5150;
+  color: #fff;
+}
+
+.navbar.sticky-top {
+  top: 0;
+  transition: top 0.3s;
+}
+
+.navbar.sticky-top.navbar-scrolled {
+  top: 15px;
+}
+
+/* content */
+.content{
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  display: block;
+}
+
+.d-block {
+  margin: auto;
+  width: 80%;
+  height: 45px;
+  padding: 10px;
+  background: #2F5150 !important;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.d-block h2{
+  margin: 0;
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.content_trans{
+  margin: auto;
+  width: 70%;
+  height: 100%;
+  padding: 20px 30px;
+  align-items: center;
+  box-sizing: border-box;
+  display: block;
+}
+
+.content_trans img{
+  object-fit: cover;
+  width: 50%;
+  height: auto;
+}
+
+>>>>>>> fix/logout
   /*Footer Styling*/
   footer {
     background-color: #2F5150;
     padding: 20px;
+<<<<<<< HEAD
     margin-top: 10rem;
   }
   
+=======
+    margin-top: 6rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+    
+>>>>>>> fix/logout
   .footer-box {
     display: flex;
     flex-direction: column;
@@ -125,6 +210,7 @@ nav {
     margin-top: -4rem;
     margin-left: 4rem;
   }
+<<<<<<< HEAD
   
   .about-box {
     display: flex;
@@ -132,20 +218,39 @@ nav {
     justify-content: space-between;
     width: 100%;
     margin-top: 20px;
+=======
+    
+  .logo-footer img{
+    margin-top: -5rem;
+    margin-left: 4rem;
+  }
+    
+  .about-box {
+    display: flex;
+    width: 100%;
+    grid-template-columns: 500px 600px 500px;
+    gap: 80px;
+    color: #fff;
+>>>>>>> fix/logout
   }
   
   .about-us {
     font-size: 20px;
     font-weight: 500;
+<<<<<<< HEAD
     color: #fff;
     text-align: justify;
     margin-top: 4rem;
+=======
+    text-align: initial;
+>>>>>>> fix/logout
   }
   
   .left-box,
   .center-box,
   .right-box {
     flex-basis: 33.33%;
+<<<<<<< HEAD
     text-align: center;
   }
   
@@ -154,33 +259,60 @@ nav {
     margin-bottom: 2rem;
   }
   
+=======
+  }
+    
+>>>>>>> fix/logout
   .list-link a {
     display: block;
     margin-bottom: 1rem;
     color: #fff;
   }
+<<<<<<< HEAD
   
+=======
+  .list-link{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    gap: 20px;
+  }
+    
+>>>>>>> fix/logout
   .content {
     display: flex;
     flex-direction: column;
   }
+<<<<<<< HEAD
   
+=======
+    
+>>>>>>> fix/logout
   .right-box {
     flex-basis: 33.33%;
     text-align: center;
   }
+<<<<<<< HEAD
   
+=======
+    
+>>>>>>> fix/logout
   .box-row {
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
   }
+<<<<<<< HEAD
   
+=======
+    
+>>>>>>> fix/logout
   .box-item {
     display: flex;
     align-items: center;
     margin-right: 20px;
   }
+<<<<<<< HEAD
   
   .box-item .fas {
     margin-right: 10px;
@@ -222,6 +354,18 @@ nav {
     text-decoration: underline;
   }
   
+=======
+    
+  .box-item .fas {
+    margin-right: 10px;
+  }
+    
+  .box-item .text {
+    color: #fff;
+    font-size: 16px;
+  }  
+    
+>>>>>>> fix/logout
   .box-row {
     display: flex;
     flex-wrap: wrap;
@@ -229,6 +373,7 @@ nav {
     align-items: center;
     margin-bottom: 20px;
   }
+<<<<<<< HEAD
   
   .search-box {
     display: flex;
@@ -269,6 +414,23 @@ nav {
   
   .register-link:hover {
     text-decoration: underline;
+=======
+    
+  .social-media-box{
+    color: #fafaff;
+  }
+  
+  .social-media a{
+    color: #fafaff;
+    font-size: 15px;
+  }
+  
+  .social-media{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+>>>>>>> fix/logout
   }
 
   @media (max-width: 768px){
@@ -278,4 +440,38 @@ nav {
     .sideLogo img{
         width: 60%;
     }
+<<<<<<< HEAD
   }
+=======
+  }
+
+  @media screen and (max-width: 1200px) {
+    .footer-box {
+      margin-left: 0;
+    }
+    
+    .about-box {
+      display: flex;
+      flex-direction: column;
+      gap:20px;
+    }
+    
+    .left-box,
+    .center-box,
+    .right-box {
+      flex-basis: 100%;
+    }
+    
+    .list-link a {
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  @media (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse {
+      display: flex!important;
+      flex-basis: auto;
+      justify-content: flex-end;
+    }
+  } 
+>>>>>>> fix/logout

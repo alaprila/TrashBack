@@ -3,6 +3,7 @@
 // Data drop-off sampah (contoh data)
 var dropOffPoints = [
   {
+<<<<<<< HEAD
     name: "Drop-off Point 1",
     lat: -6.1754,
     lng: 106.8272,
@@ -31,6 +32,36 @@ var dropOffPoints = [
     name: "Drop-off Point 6",
     lat: -6.1754,
     lng: 106.7973,
+=======
+    name: "TPA Bantar gebang",
+    lat: -6.3493,
+    lng: 106.9983,
+  },
+  {
+    name: "TPA Cipeucang",
+    lat: -6.32481,
+    lng: 106.65943,
+  },
+  {
+    name: "TPA Jatibarang",
+    lat: -6.3503,
+    lng: 107.0009,
+  },
+  {
+    name: "TPA Piyungan",
+    lat: -7.86999,
+    lng: 110.43007,
+  },
+  {
+    name: "TPA Sukawinatan",
+    lat: -2.91196,
+    lng: 104.74931,
+  },
+  {
+    name: "TPA Benowo",
+    lat: -7.21978,
+    lng: 112.62993,
+>>>>>>> fix/logout
   },
 ];
 
