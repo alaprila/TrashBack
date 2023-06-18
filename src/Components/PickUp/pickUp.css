@@ -1,0 +1,76 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.form-group button {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.alert {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 16px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.pickup-list {
+  margin-top: 20px;
+}
+
+.pickup-list-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.pickup-list-item h3 {
+  margin: 0;
+}
+
+.pickup-list-item p {
+  margin: 5px 0;
+}
+
+.pickup-list-item button {
+  margin-right: 5px;
+}
